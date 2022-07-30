@@ -1,0 +1,53 @@
+.course-box-responsive {
+    max-width: 620px;
+}
+
+.carousel-item img {
+    opacity: 30%;
+}
+
+.header-font {
+    font-size: 60px;
+}
+
+.paragraph-font {
+    font-size: 18px;
+}
+
+@media screen and (max-width:992px) and (min-width:769px) {
+    .course-box-responsive {
+        max-width: 100%;
+    }
+
+    .header-font {
+        font-size: 30px;
+    }
+
+    .paragraph-font {
+        font-size: 12px;
+    }
+
+    .carousel-button {
+        font-size: 12px;
+        max-width: 182px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .course-box-responsive {
+        max-width: 100%;
+    }
+
+    .header-font {
+        font-size: 20px;
+    }
+
+    .paragraph-font {
+        font-size: 12px;
+    }
+
+    .carousel-button {
+        font-size: 7px;
+    }
+}
